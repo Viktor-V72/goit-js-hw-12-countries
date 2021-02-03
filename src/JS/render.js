@@ -24,6 +24,7 @@ export default function renderItems(items) {
         error({
           title: 'Too many matches found',
           text: 'Please enter a more specific query!',
+          delay: 2500,
              });
     }
     
