@@ -11,7 +11,7 @@ export default function renderItems(items) {
     
     const markupAll = templateForAll(items);
     
-    if (items.length > 2 && items.length < 10) {
+    if (items.length >= 2 && items.length <= 10) {
         countriesList.insertAdjacentHTML('beforeend', markupAll);
     }
 
